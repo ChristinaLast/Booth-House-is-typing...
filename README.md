@@ -3,16 +3,16 @@ Visualising Whatsapp data using word2vec mapping for the Booth House group chat 
 
 ## Datasets
 The messages subjects were analyzed using LDA from the gensim python library to create 10 topics:
-![Gensim: LDA Model](https://radimrehurek.com/gensim/models/ldamodel.html)
+[Gensim: LDA Model](https://radimrehurek.com/gensim/models/ldamodel.html)
 
 The google news word vectors were used as a pregenerated Word2Vec model:
-![Google News Word Vectors Description](https://code.google.com/archive/p/word2vec/) ![Google News Word Vectors Download](https://github.com/mmihaltz/word2vec-GoogleNews-vectors)
+[Google News Word Vectors Description](https://code.google.com/archive/p/word2vec/) [Google News Word Vectors Download](https://github.com/mmihaltz/word2vec-GoogleNews-vectors)
 
 I retrained the google news word vectors with the book subjects using Gensim:
-![Gensim: Word2Vec Model](https://radimrehurek.com/gensim/models/word2vec.html)
+[Gensim: Word2Vec Model](https://radimrehurek.com/gensim/models/word2vec.html)
 
 The resulting word vectors were brought down to three dimensions using t-SNE from the scikit learn python library:
-![Scikit-Learn: t-SNE](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)
+[Scikit-Learn: t-SNE](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)
 
 ### GIF of Visualisation
 
