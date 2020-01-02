@@ -1,5 +1,8 @@
 # Booth-House-is-typing...
 Visualising Whatsapp data using word2vec mapping for the Booth House group chat “Guardian Angels” subjects in 3 dimensions, and graphing the content of each message in the resulting word cloud.
+### GIF of Full Network
+
+![](https://github.com/saralafia/adrl/blob/master/3_network/Interactive_Visualisation/screen_record_compress.gif)
 
 ## Description:
 Information privacy is the relationship between the collection and dissemination of data, technology, the public expectation of privacy, legal and political issues surrounding them. When private information makes its way into the eyes of the public, how do we interact with it?  
